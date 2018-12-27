@@ -13,7 +13,8 @@ public class BaseClass {
 	public void StartUp() {
 		 
 	    //Start Browser
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\e00362617\\eclipse-workspace\\BEINCONNECT\\ExeFile\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\...\\eclipse-workspace\\BEINConnect_Subscription\\ExeFile\\chromedriver.exe");
+		//Change with your local path of the chromedriver.exe
 
 	    driver = new ChromeDriver();
 	    driver.manage().window().maximize();
