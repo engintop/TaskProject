@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34801" started-at="2018-12-27T11:51:17Z" finished-at="2018-12-27T11:51:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34801" started-at="2018-12-27T11:51:17Z" finished-at="2018-12-27T11:51:52Z">
+      <class name="SamplePackage1.Scenarios">
+        <test-method status="PASS" signature="StartUp()[pri:0, instance:SamplePackage1.Scenarios@7a1ebcd8]" name="StartUp" is-config="true" duration-ms="3804" started-at="2018-12-27T11:51:17Z" finished-at="2018-12-27T11:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp -->
+        <test-method status="PASS" signature="VerifyPackageSelection()[pri:1, instance:SamplePackage1.Scenarios@7a1ebcd8]" name="VerifyPackageSelection" duration-ms="11104" started-at="2018-12-27T11:51:21Z" finished-at="2018-12-27T11:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPackageSelection -->
+        <test-method status="PASS" signature="VerifyRegistiration()[pri:2, instance:SamplePackage1.Scenarios@7a1ebcd8]" name="VerifyRegistiration" duration-ms="13266" started-at="2018-12-27T11:51:32Z" finished-at="2018-12-27T11:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistiration -->
+        <test-method status="PASS" signature="VerifyPaymentPanel()[pri:3, instance:SamplePackage1.Scenarios@7a1ebcd8]" name="VerifyPaymentPanel" duration-ms="5803" started-at="2018-12-27T11:51:45Z" finished-at="2018-12-27T11:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPaymentPanel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SamplePackage1.Scenarios@7a1ebcd8]" name="tearDown" is-config="true" duration-ms="788" started-at="2018-12-27T11:51:51Z" finished-at="2018-12-27T11:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SamplePackage1.Scenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
